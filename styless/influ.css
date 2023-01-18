@@ -153,21 +153,22 @@ footer{
     background-color: darkblue;
     height: 50vh;
     width: 100%;
+    margin-top: 80px;
 }
 .fotter-con{
-    max-width: 500px;
+    max-width: 400px;
     margin: 0 auto;
     padding-top: 100px;
-    padding-left: 150px;
     color: white;
+    text-align: center;
 }
 .cont h3{
-    margin: auto;
+    margin: 10px;
     font-weight: 700;
     font-size: 24px;
 }
 .cont p{
-    margin-bottom: auto;
+    margin-bottom: 10px;
 }
 .ic i{
     padding: 5px;
@@ -179,10 +180,6 @@ footer{
 
 /*------------------------=====================madiya====================================--------------------*/
 @media only screen and (max-width:688px) {
-    .cont, .fotter-con{
-        flex-direction: column;
-        align-items: center;
-    }
     nav{
         text-align: center;
         flex-direction: column;
@@ -201,13 +198,10 @@ footer{
     .sec-con{
         grid-template-columns: repeat(1, 1fr);
     }
-    ul li{
-        display: none;
-    }
     .header-con{
         margin-top: 80px;
         background-position: top ;
-        background-size: 400px00;
+        background-size: 350px;
     }
     
     .logos-body, .container{
@@ -220,12 +214,18 @@ footer{
     p{
         font-size: 10px;
     }
-    hr{
-        display: none;
-    }
     .con-2 p{
         padding-left: 0;
         padding-right: 20px;
+    }
+    hr{
+        display: none;
+    }
+    ul li{
+        display: none;
+    }
+    .logo img{
+        width: 90%;
     }
 }
 
